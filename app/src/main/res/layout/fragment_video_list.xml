@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.video.VideoTitlesFragment">
+
+    <data>
+
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/carViewTheme"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/space_10dp"
+        android:layout_marginTop="@dimen/space_20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/categoried_video_list"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <ExpandableListView
+            android:id="@+id/video_EL"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+            android:divider="#000000"
+            android:childDivider="@color/amber_500"
+            android:layout_marginLeft="@dimen/space_10dp"
+            android:layout_marginRight="@dimen/space_10dp"
+            android:layout_marginTop="@dimen/space_30dp"
+
+
+            android:dividerHeight="0.5dp"
+            />
+    </LinearLayout>
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+</layout>
+
+
+<!--   <com.google.android.material.card.MaterialCardView
+            style="@style/carViewTheme">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/play_video"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/space_10dp"
+                android:layout_gravity="center"
+                android:layout_weight="1.6"
+                android:text="What is Nrlm?"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:src="@drawable/ic_keyboard_arrow_right_24" />
+
+        </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>-->

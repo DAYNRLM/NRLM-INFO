@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.home.BackgroundFragment">
+
+    <data>
+
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/top_card_view"
+            android:layout_margin="@dimen/space_10dp"
+            app:strokeWidth="1dp"
+            android:backgroundTint="@color/gray"
+            style="@style/carViewTheme">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space_5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/tv_background_title"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_20sp"
+                    android:fontFamily="@font/manrope_extra_bold"
+                    android:padding="@dimen/space_3dp"
+                    android:layout_margin="@dimen/space_5dp"/>
+                <TextView
+                    android:id="@+id/text_home"
+                    android:padding="@dimen/space_4dp"
+                    android:layout_margin="@dimen/space_5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|right"
+                    android:justificationMode="inter_word"
+                    android:text="@string/tv_background"
+                    android:lineSpacingExtra="5dp"
+                    android:textSize="@dimen/text_16sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/montserrat_regular" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</layout>

@@ -1,0 +1,240 @@
+<resources>
+    <string name="app_name">NrlmInfo</string>
+
+    <string name="mord"><b>MINISTRY OF RURAL DEVELOPMENT</b></string>
+    <string name="govtindia">GOVERNMENT OF INDIA</string>
+
+    <string name="mord_hindi"><b>ग्रामीण विकास मंत्रालय</b></string>
+    <string name="govtindia_hindi">भारत सरकार</string>
+    <string name="version">Version 1.0</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //Refer to friend layout strings
+    <string name="mobile_no">Mobile Number</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="state">State</string>
+    <string name="district">District</string>
+    <string name="block">Block</string>
+    <string name="village">Village</string>
+    <string name="eligibility_criteria">Eligibility Criteria</string>
+    <string name="bpl_women">BPL Women</string>
+    <string name="person_with_disability">Person with disabilities</string>
+    <string name="other">Other</string>
+    <string name="submit">Submit</string>
+
+
+    <!--===================================================================================================-->
+    <!--===================================================================================================-->
+
+    <string name="NO_INTERNET_TITLE">No Internet!</string>
+    <string name="SERVER_ERROR_TITLE">Server Error!</string>
+    <string name="any_feedback_suggestion">Any Feedback / Suggestion</string>
+    <string name="your_answer">Your Answer</string>
+    <string name="categoried_video_list">Categoried videos list</string>
+
+    <string name="feedback_heading_1">How do you rate today’s webinar?</string>
+    <string name="feedback_heading_1_option_1">Excellent</string>
+    <string name="feedback_heading_1_option_2">Very Good</string>
+    <string name="feedback_heading_1_option_3">Good</string>
+    <string name="feedback_heading_1_option_4">Average</string>
+    <string name="feedback_heading_1_option_5">Poor</string>
+
+
+    <string name="feedback_heading_2">Logistically how was the webinar?</string>
+    <string name="feedback_heading_2_option_1">Clearly Audible &amp; Visible</string>
+    <string name="feedback_heading_2_option_2">Not Clearly Audible &amp; Visible</string>
+    <string name="feedback_heading_2_option_3">Clearly audible but not visible</string>
+    <string name="feedback_heading_2_option_4">Not clearly audible but visible</string>
+
+    <string name="feedback_heading_3">How do you rate the facilitation (based on your clarity on the subject)?</string>
+    <string name="feedback_heading_3_option_1">Excellent</string>
+    <string name="feedback_heading_3_option_2">Very Good</string>
+    <string name="feedback_heading_3_option_3">Good</string>
+    <string name="feedback_heading_3_option_4">Average</string>
+    <string name="feedback_heading_3_option_5">Poor</string>
+
+    <string name="feedback_heading_4">How do you rate the Question &amp; Answer Session (based on your satisfaction over answer given by the facilitator)?</string>
+    <string name="feedback_heading_4_option_1">Excellent</string>
+    <string name="feedback_heading_4_option_2">Very Good</string>
+    <string name="feedback_heading_4_option_3">Good</string>
+    <string name="feedback_heading_4_option_4">Average</string>
+    <string name="feedback_heading_4_option_5">Poor</string>
+
+    <string name="feedback_heading_5">Did you learn any new thing from session?</string>
+    <string name="feedback_heading_5_option_1">Yes</string>
+    <string name="feedback_heading_5_option_2">No</string>
+    <string name="menu_feedback">Feedback</string>
+<!--===========================================================================================================================================================-->
+
+    <string name="tv_objective_title">Objective</string>
+    <string name="tv_background_title">BackGround</string>
+
+    <string name="tv_objective">DAY-NRLM works with an objective to reduce poverty by enabling the poor households to access gainful self-employment and skilled wage employment opportunities, resulting in appreciable improvement in their livelihoods on a sustainable basis, through building strong grassroot institutions of the poor.</string>
+
+    <string name="tv_background">The Deendayal Antyodaya Yojana – National Rural Livelihoods Mission (DAY-NRLM) was launched in June 2011, by restructuring Swarnjayanti Gram Swarozgar Yojana (SGSY). The restructuring was based on the recommendations of the Radhakrishna Committee which examined the functioning of SGSY. Thus, DAY-NRLM has been designed on the basis of learning from implementation of rural poverty alleviation programs during the last two decades in general and the best practices from the southern states of Andhra Pradesh, Telangana, Kerala as well as Bihar.</string>
+
+
+    <string name="activity_1"><b><font size="18">1.	Institution building and Capacity building: </font></b>Promotion of community institutions (Self-help group, Village Organization, Cluster Level Federation) and their capacity building is one of the core components of DAY-NRLM. The community institutions provide a collective platform for the rural poor to overcome poverty through access of financial, technical and marketing resources. The Mission provides multiple funds to these community institutions such as <b><font size="15">Revolving Fund (RF), Community Investment Fund (CIF)</font></b> etc. to strengthen their financial base and help them leverage additional funds.</string>
+
+    <string name="activity_2"><b><font size="18">2.	Financial Inclusion: </font></b>DAY-NRLM facilitates universal access to the affordable cost-effective reliable financial services to the poor and it works on both demand and supply sides of financial inclusion by promoting <b><font size="15">financial literacy </font></b>among the poor and <b><font size="15">providing catalytic capital</font></b> to the SHGs and their federations on the demand side and coordinating with the financial sector and encouraging use of <b><font size="15">digital financial technologies, business correspondents and community facilitators </font></b>on the supply side. Financial inclusion is primarily being facilitated by enabling each SHG to be linked to banks and to access all financial services including loans. </string>
+
+    <string name="activity_3_b">DAY-NRLM has also been instrumental in providing the <b><font size="15">last mile delivery of financial services </font></b>in remote rural areas where people do not have much access to banking services, through promotion of digital finance and deployment of SHG Women as Banking Correspondent Sakhi (BC Sakhis), with the support of banks and Common Service Centres.</string>
+
+
+      .
+
+    <string name="otp_message">We will send you <b><font size="15">One time Password </font></b>on this mobile number</string>
+    <string name="otp_verify_message">We are automatically detecting OTP sent to your mobile number ********123</string>
+
+
+
+    <string name="activity_3_c"><b><font size="15">Interest Subvention</font></b> <br />
+In order to reduce the effective cost of bank credit to women SHGs, DAY-NRLM provides interest subvention and additional interest subvention to SHGs. All women SHGs whose members are from the DAY-NRLM target group, are eligible for receiving interest subvention equal to the difference between the borrowing rate of interest and 7%. In addition, in 250 districts, all women SHGs can avail loans up to Rs. 3.0 lakh each at 7 % rate of interest per annum, with an additional interest subvention of 3% on repayment of loan in time, reducing the effective interest rate to 4%.
+</string>
+
+    <string name="activity_3"><b><font size="18">3.	Farm Livelihoods:</font> </b>Under Farm Livelihoods, the Mission is implementing Mahila Kisan Sashaktikaran Pariyojana (MKSP) which was launched in 2010-11 as a special programme for livelihood enhancement. It is a concerted effort to recognize the role of women in agriculture and an investment is being made to enhance their capacities and increase their income to take lead in agriculture and allied activities. In addition, the Mission also supports the implementation of state-owned livelihood programsfocusing on sustainable agro-ecological practices. </string>
+
+    <string name="activity_4"><b><font size="18">4.	Non-Farm Livelihoods: Start-Up Village Entrepreneurship Programme (SVEP) and Aajeevika Grameen Express Yojana (AGEY) </font></b>are being implemented as non-Farm Livelihoods strategies under DAY-NRLM. SVEP supports entrepreneurs in rural areas to set up local enterprises. Aajeevika Grameen Express Yojana (AGEY) provides safe, affordable and community monitored transport services to rural areas. </string>
+
+    <string name="activity_7"><b><font size="18">DAY-NRLM: Vison 23-24</font></b></string>
+
+    <string name="activity_8">DAY-NRLM is working with a vision to expand NRLM to all blocks to establish efficient and effective community institutions of the rural poor that enable them to seek opportunities for sustainable livelihoods interventions, improved access to financial services and entitlements to augment household incomes.
+</string>
+
+    <!--======================================================================================================-->
+
+    <string name="objective_heading">The National Rural Livelihoods Promotion Society (NRLPS) has been established to undertake the following objectives:</string>
+    <string name="objective_1">National Rural Livelihood Mission and State Rural Livelihood Mission to provide professional support for social mobilization and inclusion, community institution building, capacity building, and development of strategies for promoting financial literacy and inclusion SHG credit linkages and insurance, livelihood promotion, entitlement redemption, convergence with other programmes, and including and monitoring and evaluation of mission activities.</string>
+    <string name="objective_2">To organize capacity building and training programs to strengthen the National Rural Livelihoods Mission and the State Rural Livelihoods Missions.</string>
+    <string name="objective_3">To guide and support the State Rural Livelihood Missions, resource States and National Resource Organizations under NRLM to conduct capacity building and training programs for various stakeholders and to facilitate inter-state cooperation in all mission activities.</string>
+    <string name="objective_4">To undertake all activities necessary to strengthen Panchayati Raj Institutions (PRIs) to enable them to discharge their functions relating to the National Rural Livelihoods Mission.</string>
+    <string name="objective_5">Established an efficient ICT based Management Information System to monitor the implementation of NRLM and to provide periodic financial and physical progress reports to the Ministry.</string>
+    <string name="objective_6">To provide technical assistance to the Central Government and State Governments on convergence of NRLM activities with other programmes/schemes of Government of India and State Governments.</string>
+    <string name="objective_7">Enter into partnerships and collaborations with other public and private institutions, banks, insurance companies, universities and other educational institutions, agencies, CSOs, NGOs, community based organizations (CBOs) and other bodies of repute, both in the national and international sectors Relevant to the objectives of NRLM.</string>
+    <string name="objective_8">To gather information about and document and promote their replication for best national and international practices, models and innovations in social mobilization, financial inclusion, risk reduction, livelihood promotion and public-private partnerships.</string>
+    <string name="objective_9">To undertake and support research, evaluation and other studies relating to matters having a bearing on the objectives of NRLM which will provide inputs for improving the quality of implementation of NRLM.</string>
+    <string name="objective_10">To organize conferences, seminars, workshops, consultations, seminars etc. on the areas relevant to NRLM and other poverty alleviation programmes.</string>
+    <string name="objective_11">To take up or arrange to publish books, pamphlets and literature and produce print, audio and audio visual promotional material relating to NRLM.</string>
+    <string name="objective_12">To appoint professionals, consultants, retainers and other employees on contract or deputation basis to carry out the functions of the Society.</string>
+    <string name="objective_13">To obtain grants in aid and resource support from the Government of India including financial assistance from national and international agencies/organizations to undertake activities in furtherance of the objects of the Society.</string>
+    <string name="objective_14">To acquire, take over, rent or lease movable or immovable property, and provide for their maintenance as may be necessary to carry out the objects of the society.</string>
+    <string name="objective_15">To transfer or dispose of, rent, lease any movable or immovable property of the society. The disposal and transfer of immovable property will however be subject to the prior approval of the Central Government.</string>
+    <string name="objective_16">To make expenditure on the basis of annual budget for carrying out the objectives of the society in accordance with the rules and bye-laws of the society with due regard to economy and honesty.</string>
+    <string name="objective_17">Do all such other things as may be necessary, ancillary, incidental or conducive to the receipt of all or any of the objects of the Society.</string>
+
+    <array name="array_question">
+        <item>What is NRLM - Aajeevika ?</item>
+        <item>How is it different from Swarna Jyanti Swarozgar Yojana (SGSY)?</item>
+        <item>What are the key features of NRLM?</item>
+        <item>How is NRLM being implemented?</item>
+        <item>Who are eligible for benefits under NRLM?</item>
+        <item>What are Institutions of the Poor (IOPs)?</item>
+        <item>What are the functions of the group?</item>
+        <item>What is the role of the bookkeeper?</item>
+        <item>एनआरएलएम - आजीविका क्या है?</item>
+        <item>ਐਨਆਰਐਲਐਮ ਕੀ ਹੈ - ਆਜੀਵਿਕਾ?</item>
+    </array>
+
+    <array name="array_answer">
+        <item>National Rural Livelihoods Mission (NRLM) - Aajeevika was launched by the Ministry of
+            Rural Development (MoRD), Government of India in June 2011 as a restructured version of
+            Swarna Jayanti Gram Swarozgar Yojna (SGSY). NRLM has the mandate of reaching out to 100
+            million rural poor in 6 lakh villages across the country.
+            \n\nThe poor have innate capabilities to overcome poverty. NRLM strives towards
+            unleashing this entrepreneurial capability by creating appropriate platforms for the
+            poor through a dedicated and sensitive support structures.
+        </item>
+
+        <item>NRLM has adopted ‘demand driven’ strategy, in place of SGSY’s ‘allocation based’
+            strategy. This implies that under NRLM, states have greater autonomy to plan for
+            implementing the programme. NRLM encourages states to prepare State Perspective for
+            Implementation Plans (SPIP) for seven years and Annual Action Plans (AAPs). The
+            allocation for the state is released against the approved AAP.
+            <br />
+            \n\nNRLM has adopted a Participatory Identification of Poor (PIP) instead of the BPL to
+            identify its beneficiaries.
+        </item>
+
+        <item>NRLM rests on three major pillars – universal social mobilization, financial inclusion
+            and livelihoods enhancement. It works towards bringing at least one member (preferably a
+            woman) from all poor families into the SHG network. The SHGs and their federations offer
+            their members services such as savings, credit and livelihoods support. As the
+            Institutions of the Poor (IoP) mature, they are facilitated to take up
+            livelihoods/income-generating activities.
+        </item>
+
+        <item>NRLM has put in place a dedicated, sensitive support structure to facilitate the
+            creation and functioning of IoP. The SRLMs are given the responsibility of implementing
+            the programme in the states based on their States Perspective Implementation Plans
+            (SPIPs) and Annual Action Plans (AAPs). District Mission Management Units (DMMU) and
+            Block Mission Management Units (BMMU) are established to implement the programme.
+            \n\nAt the national level, the National Rural Livelihoods Promotion Society (NRLPS) has
+            been set up to serve as the technical support agency to NRLM. NRLPS supports the SRLMs
+            in strategizing, planning and implementing NRLM.
+        </item>
+
+        <item>The NRLM Target Households (NTH) are identified through the Participatory
+            Identification of Poor (PIP) instead of the BPL. The PIP is a community-driven process
+            where the CBOs themselves dentify the poor in the village using participatory tools. The
+            list of poor identified by the CBO is vetted by the Gram Sabha.
+        </item>
+
+        <item>SHGs, their federations at the village, cluster levels and beyond, and other
+            collectives of the poor constitute Institutions of Poor (IoP).
+            \n\nSHGs are affinity-based homogenous groups of 10-20 members (usually women). They
+            follow five cardinal principles or Panchsutra (regular meetings, regular savings,
+            internal lending, regular repayment and bookkeeping). The SHGs are federated at the
+            village (Village Organisation), sub-block and higher levels. They are supported to
+            become self-sufficient and community-managed institutions over time.
+            \n\nInstitutions of the poor such as SHGs and their village level and higher level
+            federations are necessary to provide space, voice and resources for the poor, and for
+            reducing their dependence on external agencies. They empower them. They also act as
+            instruments of knowledge and technology dissemination, and hubs of production,
+            collectivization and commerce. NRLM, therefore, would focus on setting up these
+            institutions at various levels.
+            \n\nIn case of special SHGs i.e. groups in remote tribal areas and in difficult areas,
+            groups with vulnerable persons like disabled persons, the group may be as small as 5
+            members. Only for groups to be formed with Persons with disabilities, and other special
+            categories like elders, transgender, NRLM will have both men and women in the SHGs.
+        </item>
+
+        <item>SHGs are affinity-based savings and credit groups to begin with. They offer
+            solidarity. They provide microfinance services – savings, credit, bank linkages,
+            insurance, remittances, equity etc. They also offer collectivization and group
+            activities. The SHGs offer social security and social action in various fronts including
+            health, nutrition, food, gender, convergence etc., directly or through their
+            federations.
+        </item>
+
+        <item>The bookkeeper of the SHG is a literate member of the group or any literate person
+            known to the group members. The bookkeeper is selected by the SHG members and is trained
+            in SHG bookkeeping. A SHG has 4-7 books – member passbook, minutes book, attendance and
+            savings book, cash book, loan ledger, activity/enterprise book(s) etc.
+        </item>
+
+        <item>
+            राष्ट्रीय ग्रामीण आजीविका मिशन (NRLM) - आजीविका को मंत्रालय द्वारा शुरू किया गया था
+            ग्रामीण विकास (एमओआरडी), भारत सरकार ने जून 2011 में के पुनर्रचित संस्करण के रूप में
+            स्वर्ण जयंती ग्राम स्वरोजगार योजना (एसजीएसवाई)। एनआरएलएम के पास 100 . तक पहुंचने का अधिदेश है
+            देश भर के 6 लाख गांवों में लाखों ग्रामीण गरीब।
+            \n\nगरीबों में गरीबी को दूर करने की जन्मजात क्षमता होती है। NRLM की ओर प्रयास करता है
+            के लिए उपयुक्त मंच बनाकर इस उद्यमशीलता की क्षमता को उजागर करना
+            एक समर्पित और संवेदनशील समर्थन संरचनाओं के माध्यम से गरीब।
+        </item>
+
+        <item>
+            ਰਾਸ਼ਟਰੀ ਪੇਂਡੂ ਆਜੀਵਿਕਾ ਮਿਸ਼ਨ (ਐਨਆਰਐਲਐਮ) - ਆਜੀਵਿਕਾ ਮੰਤਰਾਲੇ ਦੁਆਰਾ ਲਾਂਚ ਕੀਤਾ ਗਿਆ ਸੀ
+            ਦੇ ਪੁਨਰਗਠਨ ਰੂਪ ਵਜੋਂ ਜੂਨ 2011 ਵਿੱਚ ਪੇਂਡੂ ਵਿਕਾਸ (ਐਮਓਆਰਡੀ), ਭਾਰਤ ਸਰਕਾਰ
+            ਸਵਰਨ ਜਯੰਤੀ ਗ੍ਰਾਮ ਸਵਰੋਜਗਰ ਯੋਜਨਾ (ਐਸਜੀਐਸਵਾਈ). ਐਨਆਰਐਲਐਮ ਕੋਲ 100 ਤੱਕ ਪਹੁੰਚਣ ਦਾ ਅਧਿਕਾਰ ਹੈ
+            ਦੇਸ਼ ਭਰ ਦੇ 6 ਲੱਖ ਪਿੰਡਾਂ ਵਿੱਚ ਲੱਖਾਂ ਪੇਂਡੂ ਗਰੀਬ
+            poor n \ n ਗਰੀਬਾਂ ਵਿੱਚ ਗਰੀਬੀ ਨੂੰ ਦੂਰ ਕਰਨ ਦੀ ਸੁਭਾਵਕ ਸਮਰੱਥਾ ਹੁੰਦੀ ਹੈ. ਐਨਆਰਐਲਐਮ ਵੱਲ ਯਤਨ ਕਰਦਾ ਹੈ
+            ਲਈ ਕਵੇਂ ਪਲੇਟਫਾਰਮ ਬਣਾ ਕੇ ਇਸ ਉੱਦਮੀ ਸਮਰੱਥਾ ਨੂੰ ਜਾਰੀ ਕਰਨਾ
+            ਇੱਕ ਸਮਰਪਿਤ ਅਤੇ ਸੰਵੇਦਨਸ਼ੀਲ ਸਹਾਇਤਾ ਚਿਆਂ ਦੁਆਰਾ ਗਰੀਬ.
+        </item>
+
+    </array>
+
+
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/carViewTheme"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:visibility="visible">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cv_question"
+            style="@style/carViewTheme"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/gray"
+           >
+
+            <TextView
+                android:id="@+id/text_heading"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Select Any Subject"
+                android:textSize="16dp"
+                android:padding="2dp"
+                android:textColor="@color/black" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cv_question"
+            android:orientation="vertical" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+
+    <!-- android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="1dp"
+      app:cardBackgroundColor="@color/white"
+      app:cardCornerRadius="5dp"
+      app:cardElevation="5dp"
+      app:cardMaxElevation="10dp"-->

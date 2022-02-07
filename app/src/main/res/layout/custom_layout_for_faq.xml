@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/top_card_view"
+            style="@style/carViewTheme">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cv_question"
+                    style="@style/carViewTheme"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/gray"
+                    app:strokeColor="@color/black">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/tv_question"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Q1. gfhjghetgiohjgjkjhkjlhjghjgdjhgjihgdjkgh"
+                            android:layout_margin="3dp"
+                            android:padding="2dp"
+                            android:fontFamily="@font/manrope_extra_bold"
+                            android:textColor="@color/black" />
+
+
+                    </LinearLayout>
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cv_answer"
+                    style="@style/carViewTheme"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    app:strokeColor="@color/gray">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:gravity="left|right"
+                            android:justificationMode="inter_word"
+                            android:id="@+id/tv_answer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="gfhjghetgiohjgjkjhkjlhjghjgdjhgjihgdjkgh"
+                            android:layout_margin="3dp"
+                            android:padding="2dp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:textColor="@color/black" />
+
+
+                    </LinearLayout>
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/image_volumeOff"
+                        android:layout_margin="@dimen/space_5dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_outline_volume_off_24" />
+
+                    <ImageView
+                        android:id="@+id/image_volumeUp"
+                        android:layout_margin="@dimen/space_5dp"
+                        android:layout_alignParentRight="true"
+                        android:visibility="gone"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_outline_volume_up_24" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.home.AboutNrlmFragment">
+    <data>
+    </data>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/top_card_view"
+                    android:layout_margin="@dimen/space_10dp"
+                    app:strokeWidth="1dp"
+                    android:backgroundTint="@color/gray"
+                    style="@style/carViewTheme">
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/space_5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="NRLM"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_20sp"
+                            android:fontFamily="@font/manrope_extra_bold"
+                            android:padding="@dimen/space_3dp"
+                            android:layout_margin="@dimen/space_5dp"/>
+                        <TextView
+                            android:id="@+id/text_home"
+                            android:padding="@dimen/space_4dp"
+                            android:layout_margin="@dimen/space_5dp"
+                            android:gravity="left|right"
+                            android:justificationMode="inter_word"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="The Deendayal Antyodaya Yojana – National Rural Livelihoods Mission (DAY-NRLM) is a flagship programme of the Ministry of Rural Development (MoRD) that seeks to alleviate rural poverty through building sustainable community institutions of the poor. The centrally sponsored programme, seeks to mobilize about 9-10 crore households into SHGs and link them to sustainable livelihoods opportunities by building their skills and enabling them to access formal sources of finance, entitlements and services from both public and private sectors. It is envisaged that the intensive and continuous capacity building of rural poor women will ensure their social, economic and political upliftment."
+                            android:lineSpacingExtra="5dp"
+                            android:textSize="@dimen/text_16sp"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/montserrat_regular" />
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_margin="@dimen/space_10dp"
+                    app:strokeWidth="1dp"
+                    android:backgroundTint="@color/gray"
+                    style="@style/carViewTheme">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/space_5dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/nrlm_framework"
+                            android:layout_width="match_parent"
+                            android:layout_height="400dp"
+                            android:padding="3dp"
+                            android:layout_marginLeft="@dimen/space_5dp"
+                            android:layout_marginRight="@dimen/space_5dp"
+                            android:layout_marginBottom="@dimen/space_10dp"
+                            android:layout_marginTop="@dimen/space_10dp"
+                            android:layout_below="@+id/text_home"
+                            app:srcCompat="@drawable/frame_work"
+                            android:scaleType="fitXY"/>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</layout>

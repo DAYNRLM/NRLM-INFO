@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/carViewTheme"
+    android:layout_margin="@dimen/space_5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:layout_margin="@dimen/space_5dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_margin="@dimen/space_2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+android:paddingRight="?android:attr/listPreferredItemPaddingEnd"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/expandedListItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space_5dp"
+
+                android:text="@string/app_name"
+                android:textColor="@color/amber_500" />
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

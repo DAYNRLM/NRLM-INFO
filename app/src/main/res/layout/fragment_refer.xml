@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.home.ReferFragment">
+
+    <data>
+
+    </data>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:hint="@string/mobile_no"
+                    android:textColor="@color/purple_500"
+                    android:inputType="number"
+                    android:textSize="@dimen/refer_font"
+                    app:met_baseColor="@color/purple_500"
+                    app:met_floatingLabel="highlight"
+                    app:met_maxCharacters="50"
+                    app:met_primaryColor="@color/purple_500"
+                    app:met_singleLineEllipsis="true" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:hint="@string/name"
+                    android:textColor="@color/purple_500"
+                    android:inputType="text"
+                    android:textSize="@dimen/refer_font"
+                    app:met_baseColor="@color/purple_500"
+                    app:met_floatingLabel="highlight"
+                    app:met_maxCharacters="50"
+                    app:met_primaryColor="@color/purple_500"
+                    app:met_singleLineEllipsis="true" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:hint="@string/address"
+                    android:textColor="@color/purple_500"
+                    android:inputType="text"
+                    android:textSize="@dimen/refer_font"
+                    app:met_baseColor="@color/purple_500"
+                    app:met_floatingLabel="highlight"
+                    app:met_maxCharacters="80"
+                    app:met_primaryColor="@color/purple_500"
+                    app:met_singleLineEllipsis="true" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:hint="@string/state"
+                    android:textColor="@color/purple_500"
+                    android:inputType="text"
+
+                    android:textSize="@dimen/refer_font"
+                    app:met_baseColor="@color/purple_500"
+                    app:met_floatingLabel="highlight"
+                    app:met_maxCharacters="50"
+                    app:met_primaryColor="@color/purple_500"
+                    app:met_singleLineEllipsis="true" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:hint="@string/district"
+                    android:textColor="@color/purple_500"
+                    android:inputType="text"
+
+                    android:textSize="@dimen/refer_font"
+                    app:met_baseColor="@color/purple_500"
+                    app:met_floatingLabel="highlight"
+                    app:met_maxCharacters="50"
+                    app:met_primaryColor="@color/purple_500"
+                    app:met_singleLineEllipsis="true" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:hint="@string/block"
+                    android:textColor="@color/purple_500"
+                    android:inputType="text"
+
+                    android:textSize="@dimen/refer_font"
+                    app:met_baseColor="@color/purple_500"
+                    app:met_floatingLabel="highlight"
+                    app:met_maxCharacters="20"
+                    app:met_primaryColor="@color/purple_500"
+                    app:met_singleLineEllipsis="true" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:hint="@string/village"
+                    android:textColor="@color/purple_500"
+                    android:inputType="text"
+
+                    android:textSize="@dimen/refer_font"
+                    app:met_baseColor="@color/purple_500"
+                    app:met_floatingLabel="highlight"
+                    app:met_maxCharacters="20"
+                    app:met_primaryColor="@color/purple_500"
+                    app:met_singleLineEllipsis="true" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:visibility="visible"
+                    android:textColor="@color/purple_500"
+                    android:background="@drawable/back"
+                    android:padding="12dp">
+
+                    <TextView
+                        android:id="@+id/text_heading"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:text="@string/eligibility_criteria"
+                        android:textColor="@color/purple_500"
+                        android:textSize="@dimen/refer_font" />
+
+                    <RadioGroup
+                        android:id="@+id/radiogroup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/text_heading"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radioButton1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/bpl_women"
+                            android:textSize="@dimen/refer_font"
+                            android:textColor="@color/purple_500" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/person_with_disability"
+                            android:textSize="@dimen/refer_font"
+                            android:textColor="@color/purple_500" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/other"
+                            android:textSize="@dimen/refer_font"
+                            android:textColor="@color/purple_500" />
+
+                        />
+                    </RadioGroup>
+
+                </RelativeLayout>
+
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="@string/submit"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/refer_font"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="20dp">
+
+                </Button>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</layout>

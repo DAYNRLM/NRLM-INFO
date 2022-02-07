@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.home.AboutUsFragment">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/profile_scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_marginTop="@dimen/text_20sp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/nrlm_logo"
+                        android:layout_gravity="center|center_vertical"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="wrap_content"
+                        android:text="v. 1.0.0"
+                        android:textSize="20dp"
+                        android:gravity="center_vertical"
+                        android:layout_gravity="center|center_vertical"/>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray_text"
+                        android:layout_marginTop="@dimen/space_30dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/follow_twitterLL"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        >
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight=".2"
+                            android:src="@drawable/ic_language_24" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="2.2"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="Follw us on twitter"
+
+                            android:textColor="@color/gray_text"
+                            android:textSize="@dimen/text_20sp"/>
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".6"
+                            android:layout_marginLeft="@dimen/space_30dp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_keyboard_arrow_right_24"
+                            />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray_text"
+                        android:layout_marginTop="20dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/follow_facebookLL"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        >
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight=".2"
+                            android:src="@drawable/ic_language_24" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="2.2"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="Like us on facebook"
+
+                            android:textColor="@color/gray_text"
+                            android:textSize="@dimen/text_20sp"/>
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".6"
+                            android:layout_marginLeft="@dimen/space_30dp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_keyboard_arrow_right_24"
+                            />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray_text"
+                        android:layout_marginTop="20dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/follow_instagramLL"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        >
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight=".2"
+                            android:src="@drawable/ic_language_24" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="2.2"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="Follow us on instagram"
+
+                            android:textColor="@color/gray_text"
+                            android:textSize="@dimen/text_20sp"/>
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".6"
+                            android:layout_marginLeft="@dimen/space_30dp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_keyboard_arrow_right_24"
+                            />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray_text"
+                        android:layout_marginTop="20dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/check_updateLL"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="@dimen/text_20sp"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        >
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight=".2"
+                            android:src="@drawable/ic_language_24" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="2.2"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="Check for update"
+
+                            android:textColor="@color/gray_text"
+                            android:textSize="@dimen/text_20sp"/>
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".6"
+                            android:layout_marginLeft="@dimen/space_30dp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_keyboard_arrow_right_24"
+                            />
+
+                    </LinearLayout>
+
+
+
+
+
+
+                </LinearLayout>
+
+            </androidx.core.widget.NestedScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

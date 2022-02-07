@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.home.ObjectiveFragment">
+
+    <data>
+
+    </data>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/top_card_view"
+                style="@style/carViewTheme">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/cv_answer"
+                        style="@style/carViewTheme"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        app:strokeColor="@color/gray">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/tv_objective_title"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/manrope_extra_bold"
+                                android:padding="@dimen/space_4dp"
+                                android:textSize="@dimen/text_20sp"
+                                android:layout_margin="@dimen/space_3dp"/>
+
+                            <TextView
+                                android:gravity="left|right"
+                                android:justificationMode="inter_word"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/tv_objective"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:layout_margin="3dp"
+                                android:padding="2dp"/>
+
+
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/carViewTheme">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        style="@style/carViewTheme"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        app:strokeColor="@color/gray">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:gravity="left|right"
+                                android:justificationMode="inter_word"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/objective_1"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:layout_margin="3dp"
+                                android:padding="2dp"/>
+
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/carViewTheme">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        style="@style/carViewTheme"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        app:strokeColor="@color/gray">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:gravity="left|right"
+                                android:justificationMode="inter_word"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/objective_2"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:layout_margin="3dp"
+                                android:padding="2dp"/>
+
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/carViewTheme">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        style="@style/carViewTheme"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        app:strokeColor="@color/gray">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:gravity="left|right"
+                                android:justificationMode="inter_word"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/objective_3"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:layout_margin="3dp"
+                                android:padding="2dp"/>
+
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/carViewTheme">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        style="@style/carViewTheme"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        app:strokeColor="@color/gray">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:gravity="left|right"
+                                android:justificationMode="inter_word"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/objective_4"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:layout_margin="3dp"
+                                android:padding="2dp"/>
+
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/carViewTheme">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        style="@style/carViewTheme"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        app:strokeColor="@color/gray">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:gravity="left|right"
+                                android:justificationMode="inter_word"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/objective_5"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:layout_margin="3dp"
+                                android:padding="2dp"/>
+
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/carViewTheme">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        style="@style/carViewTheme"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        app:strokeColor="@color/gray">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:gravity="left|right"
+                                android:justificationMode="inter_word"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/objective_6"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:layout_margin="3dp"
+                                android:padding="2dp"/>
+
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/carViewTheme">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        style="@style/carViewTheme"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        app:strokeColor="@color/gray">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:gravity="left|right"
+                                android:justificationMode="inter_word"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/objective_7"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:layout_margin="3dp"
+                                android:padding="2dp"/>
+
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/carViewTheme">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        style="@style/carViewTheme"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        app:strokeColor="@color/gray">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:gravity="left|right"
+                                android:justificationMode="inter_word"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/objective_8"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:layout_margin="3dp"
+                                android:padding="2dp"/>
+
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/carViewTheme">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        style="@style/carViewTheme"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        app:strokeColor="@color/gray">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:gravity="left|right"
+                                android:justificationMode="inter_word"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/objective_9"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:layout_margin="3dp"
+                                android:padding="2dp"/>
+
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/carViewTheme">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        style="@style/carViewTheme"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        app:strokeColor="@color/gray">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:gravity="left|right"
+                                android:justificationMode="inter_word"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/objective_10"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:layout_margin="3dp"
+                                android:padding="2dp"/>
+
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/carViewTheme">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        style="@style/carViewTheme"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        app:strokeColor="@color/gray">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:gravity="left|right"
+                                android:justificationMode="inter_word"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/objective_11"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:layout_margin="3dp"
+                                android:padding="2dp"/>
+
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/carViewTheme">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        style="@style/carViewTheme"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        app:strokeColor="@color/gray">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:gravity="left|right"
+                                android:justificationMode="inter_word"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/objective_12"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:layout_margin="3dp"
+                                android:padding="2dp"/>
+
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/carViewTheme">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        style="@style/carViewTheme"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        app:strokeColor="@color/gray">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:gravity="left|right"
+                                android:justificationMode="inter_word"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/objective_13"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:layout_margin="3dp"
+                                android:padding="2dp"/>
+
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/carViewTheme">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        style="@style/carViewTheme"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        app:strokeColor="@color/gray">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:gravity="left|right"
+                                android:justificationMode="inter_word"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/objective_14"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:layout_margin="3dp"
+                                android:padding="2dp"/>
+
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/carViewTheme">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        style="@style/carViewTheme"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        app:strokeColor="@color/gray">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:gravity="left|right"
+                                android:justificationMode="inter_word"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/objective_15"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:layout_margin="3dp"
+                                android:padding="2dp"/>
+
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/carViewTheme">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        style="@style/carViewTheme"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        app:strokeColor="@color/gray">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:gravity="left|right"
+                                android:justificationMode="inter_word"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/objective_16"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:layout_margin="3dp"
+                                android:padding="2dp"/>
+
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+</layout>
